@@ -31,19 +31,19 @@ h4 {
 
 img {
   display: block;
-
+  /* this will ensure that the images don't get deformed, "squished" or stretch */
   max-width: 100%;
   height: auto;
   object-fit: cover;
 }
-
+/* this will ensure that the images don't get deformed, "squished" or stretch */
 object {
   max-width: 100%;
   height: auto;
   object-fit: cover;
 }
 
-
+/* switching art direction above 960px */
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
